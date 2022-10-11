@@ -17,6 +17,12 @@
             background-color: hsl(212, 45%, 89%);
         }
 
+        .container{
+            display: flex;
+            align-items: center;
+            height: 100vh;
+        }
+
         .qr-card{
             margin: 0 auto;
             display: flex;
@@ -56,13 +62,14 @@
     </style>
 </head>
 <body>
-    <div class="qr-card">
-        <img src="./images/image-qr-code.png" alt="qr-code">
-        <div class="description">
-            <h2>Improve your front-end skills by building projects</h2>
-        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    <div class="container">
+        <div class="qr-card">
+            <img src="./images/image-qr-code.png" alt="qr-code">
+            <div class="description">
+                <h2>Improve your front-end skills by building projects</h2>
+                <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+            </div>
         </div>
-        
     </div>
 </body>
 </html>
